@@ -1,0 +1,19 @@
+Git Version
+git --version
+
+Git Username
+git config --global user.name "username"
+
+Git email
+git config --global user.email "email"
+
+Git Initialize
+git Init
+
+Git Three Stages 
+
+Add all files to the staging area
+git add .
+
+Commit Changes with message
+git commit -m "Message"
