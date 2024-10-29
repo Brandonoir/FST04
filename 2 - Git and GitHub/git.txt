@@ -26,3 +26,9 @@ git branch -a
 
 Change branch
 git checkout "branchName" or git switch "branchName"
+
+Merge branch to master branch
+git merge "branchName" //must be in master branch
+
+Delete branch
+git branch -d "branchName" //must be in master branch
