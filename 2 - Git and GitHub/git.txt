@@ -32,3 +32,15 @@ git merge "branchName" //must be in master branch
 
 Delete branch
 git branch -d "branchName" //must be in master branch
+
+connecting remote repository/GitHub
+git remote add origin (link  to repository)
+
+Changing the master branch to main
+git branch -M main
+
+Push local repository to the remote repository/GitHub (first time)
+git push -u origin main
+
+Push local repository to the remote repository/GitHub
+git push
