@@ -17,3 +17,12 @@ git add .
 
 Commit Changes with message
 git commit -m "Message"
+
+Create a new branch
+git branch "branchName"
+
+Display all branches
+git branch -a
+
+Change branch
+git checkout "branchName" or git switch "branchName"
