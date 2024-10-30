@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h2>HTML Forms</h2>
+    <form>
+      <!-- Text field Input with label -->
+
+      <!-- Input field for Username -->
+      <div>
+        <label for="name">Username: </label>
+        <input type="text" name="name" id="name" placeholder="ex. John Doe" />
+      </div>
+      <br />
+
+      <!-- Input field for Email -->
+      <div>
+        <label for="email">Email Address: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="ex. John@Doe"
+          required
+        />
+      </div>
+      <br />
+
+      <!-- Input field for Password -->
+      <div>
+        <label for="password">Password: </label>
+        <input type="password" id="password" required />
+      </div>
+      <br />
+
+      <!-- Input field for Numbers -->
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" min="1" max="18" />
+      </div>
+      <br />
+
+      <!-- Text Area -->
+      <div>
+        <label for="message">Message: </label><br />
+        <textarea name="message" id="message" cols="25" rows="5"></textarea>
+      </div>
+      <br />
+
+      <!-- dropdown menu -->
+      <div>
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender">
+          <option disabled selected>Select a gender</option>
+          <option name="gender" value="Male">Male</option>
+          <option name="gender" value="Female">Female</option>
+        </select>
+      </div>
+      <hr />
+      <br />
+
+      <!-- Radio buttons -->
+      <div>
+        <h2>Favorite color</h2>
+        <input type="radio" name="color" id="red" value="red" />
+        <label for="red"> Red </label>
+        <br />
+        <input type="radio" name="color" id="green" value="green" />
+        <label for="green"> Green </label>
+        <br />
+        <label for="blue">
+          <input type="radio" name="color" id="blue" value="blue" />
+          Blue
+        </label>
+      </div>
+      <br />
+      <hr />
+
+      <!-- checkbox -->
+      <div>
+        <h2>Todo List</h2>
+        <input type="checkbox" id="grocery" name="todo" value="grocery" />
+        <label for="grocery"> Grocery </label>
+        <br />
+        <input type="checkbox" id="Cooking" name="todo" value="cooking" />
+        <label for="Cooking"> Cooking </label>
+        <br />
+        <input type="checkbox" id="laundry" name="todo" value="laundry" />
+        <label for="laundry"> Laundry </label>
+        <br />
+        <br />
+
+        <!-- Submit and results in the URL -->
+        <div>
+          <label for="submit"></label>
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
